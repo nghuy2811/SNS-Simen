@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/vendor/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>SNS Simen</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg my-navbar">
+    <div class="container">
+      <div class="sns-switch d-flex">
+        <div class="language">
+          <img src="assets/images/languages/en.jpg" alt="English">
+          English
+          <i class="fas fa-sort-down"></i>
+          <ul class="language-list shadow">
+            <li class="language-item">
+              <a href="">
+                <img src="assets/images/languages/en.jpg" alt="English">English
+              </a>
+            </li>
+            <li class="language-item">
+              <a href="">
+                <img src="assets/images/languages/fr.jpg" alt="France">France
+              </a>
+            </li>
+            <li class="language-item">
+              <a href="">
+                <img src="assets/images/languages/ru.jpg" alt="Russian">Russian
+              </a>
+            </li>
+            <li class="language-item">
+              <a href="">
+                <img src="assets/images/languages/bra.jpg" alt="Brazil">Brazil
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="currency">
+          USD
+          <i class="fas fa-sort-down"></i>
+          <ul class="currency-list shadow">
+            <li class="currency-item">
+              <a href="">USD</a>
+            </li>
+            <li class="currency-item"><a href="">EUR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="justify-content-end">
+        <div class="navbar-user">
+          <a class="navbar-user__account" href="#">
+            <i class="fas fa-user"></i>
+            My Account
+          </a>
+          <a class="navbar-user__wishlist" href="#">
+            <i class="far fa-heart"></i>
+            Wishlist</a>
+          <a class="navbar-user__checkout" href="#">
+            <i class="far fa-check-square"></i>
+            Checkout</a>
+          <a class="navbar-user__login" href="#">
+            <i class="fas fa-key"></i>
+            Login</a>
+        </div>
+        <div class="user-sm">
+          <i class="fas fa-user"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <section class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-3 col-md-3 col-12 header-logo">
+          <img src="assets/images/logo.png" alt="SIMEN">
+        </div>
+        <div class="col col-lg-3 col-md-3 col-4 header-widget d-flex">
+          <span class="header-widget__icon"><i class="fas fa-truck"></i></span>
+          <div class="header-widget__text">
+            <h5 class="header-widget__text__heading">Free delivery worldwide</h5>
+            <p class="header-widget__text__info">On order over $200</p>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-3 col-4 header-widget d-flex">
+          <span class="header-widget__icon"><i class="fas fa-cloud-upload-alt"></i></span>
+          <div class="header-widget__text">
+            <h5 class="header-widget__text__heading">UP TO 20% OFF COSY LAYERS</h5>
+            <p class="header-widget__text__info">Lorem ipsum dolor sit amet
+            </p>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-3 col-4 header-widget d-flex">
+          <span class="header-widget__icon"><i class="fas fa-gift"></i></span>
+          <div class="header-widget__text">
+            <h5 class="header-widget__text__heading">BUY 1 GET 1 FREE</h5>
+            <p class="header-widget__text__info">On order over $100</p>
+          </div>
+        </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="category">
+    <div class="container position-relative">
+      <div class="d-flex align-items-center justify-content-between category__content">
+        <!-- <div class="category-nav">
+          <i class="fas fa-bars"></i>
+        </div> -->
+        <ul class="category__list d-flex">
+          <li class="category__list-item category__list-item--active"><a href="#">Home</a></li>
+          <li class="category__list-item"><a href="#">Furniture</a></li>
+          <li class="category__list-item"><a href="#">Coffee tables</a></li>
+          <li class="category__list-item"><a href="#">Sofas</a></li>
+          <li class="category__list-item"><a href="#">Bedroom furniture</a></li>
+          <li class="category__list-item"><a href="#">Shop</a></li>
+          <li class="category__list-item"><a href="#">Blog</a></li>
+          <li class="category__list-item"><a href="#">Short codes</a></li>
+          <li class="category__list-item"><a href="#">Contact us</a></li>
+        </ul>
+        <div class="category-nav">
+          <button class="btn category-nav__btn" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="offcanvas offcanvas-start category-nav__offcanvas" data-bs-scroll="true" tabindex="-1"
+            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-body">
+              <li class="category-nav__offcanvas-item"><a href="#">Home</a></li>
+              <li class="category-nav__offcanvas-item"><a href="#">Furniture</a></li>
+              <li class="category-nav__offcanvas-item"><a href="#">Coffee tables</a></li>
+              <li class="category-nav__offcanvas-item"><a href="#">Sofas</a></li>
+              <li class="category-nav__offcanvas-item"><a href="#">Bedroom furniture</a></li>
+              <li class="category-nav__offcanvas-item"><a href="#">Shop</a></li>
+              <li class="category-nav__offcanvas-item"><a href="#">Blog</a></li>
+              <li class="category-nav__offcanvas-item"><a href="#">Short codes</a></li>
+              <li class="category-nav__offcanvas-item"><a href="#">Contact us</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="category__search d-flex">
+          <div class="category__search-icon">
+            <i class="fas fa-search"></i>
+            <div class="search-input">
+              <input type="text" placeholder="Search entire store here..." class="form-control search-input__content">
+              <button type="submit" class="btn">Search</button>
+            </div>
+          </div>
+          <div class="category__search-cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span>0</span> (items)
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col col-12 col-lg-6 col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide carousel-sale" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="active carousel-indicators-custom" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                class=" carousel-indicators-custom" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                class=" carousel-indicators-custom" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/header/01.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/header/2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/header/3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-lg-6 col-md-6 col-xs-12 banner">
+          <div class="row">
+            <div class="col col-12 col-lg-12 w-100 banner-full">
+              <img src="assets/images/header/5.png" alt="">
+            </div>
+            <div class="col col-12 col-lg-6 col-md-6 col-xs-12 banner-half-1">
+              <img src="assets/images/header/banner1-300x286.jpg" alt="">
+            </div>
+            <div class="col col-12 col-lg-6 col-md-6 col-xs-12 banner-half-2">
+              <img src="assets/images/header/banner2-300x286.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT -->
+  <section class="product">
+    <div class="container">
+      <ul class="header-section product-list">
+        <li class="product-list__item">
+          <a href="" class="product-list__item-link">
+            <span>Latest</span>
+          </a>
+        </li>
+        <li class="product-list__item">
+          <a href="" class="product-list__item-link">
+            <span>Best Seller</span>
+          </a>
+        </li>
+        <li class="product-list__item">
+          <a href="" class="product-list__item-link">
+            <span>Featured</span>
+          </a>
+        </li>
+      </ul>
+      <div class="product-list-nav">
+        <span class="product-list-nav-btn">
+          <i class="fas fa-bars"></i>
+        </span>
+        <ul class="product-list-nav-list shadow">
+          <li class="product-list-nav-list__item active">
+            <a href="#" class="product-list-nav-list__item-link">
+              Latest
+            </a>
+          </li>
+          <li class="product-list-nav-list__item">
+            <a href="#" class="product-list-nav-list__item-link">
+              Best Seller
+            </a>
+          </li>
+          <li class="product-list-nav-list__item">
+            <a href="#" class="product-list-nav-list__item-link">
+              Featured
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="product-content">
+        <div class="row">
+          <div class="col col-lg-2 col-md-4 col-12 product-content__detail product-1">
+            <div class="product-content__img">
+              <div class="sale-badge">SALE!</div>
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/17-215x260.jpg" alt="Product 1" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                <span>$ 9.00</span> $ 7.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="col col-lg-2 col-md-4 col-12 product-content__detail product-2">
+            <div class="product-content__img">
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/26-215x260.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                $ 10.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="col col-lg-2 col-md-4 col-12 product-content__detail product-3">
+            <div class="product-content__img">
+              <div class="sale-badge">SALE!</div>
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/10-215x260.jpg" alt="Product 3" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                <span>$ 3.00</span> $ 2.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="col col-lg-2 col-md-4 col-12 product-content__detail product-4">
+            <div class="product-content__img">
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/24-215x260.jpg" alt="Product 4" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                $ 14.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="col col-lg-2 col-md-4 col-12 product-content__detail product-5">
+            <div class="product-content__img">
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/3-215x260.jpg" alt="Product 5" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                $ 14.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="col col-lg-2 col-md-4 col-12 product-content__detail product-6">
+            <div class="product-content__img">
+              <div class="sale-badge">SALE!</div>
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/17-215x260.jpg" alt="Product 6" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                <span>$ 9.00</span> $ 7.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-load-more">Load more items</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- AXEL-STOOL -->
+  <section id="axel-tool">
+    <div class="container">
+      <div class="axel-tool">
+        <div class="row">
+          <div class="col col-lg-6 col-12 text-center">
+            <img src="./assets/images/product/call-to-action.jpg" alt="Axel stool" class="img-fluid">
+          </div>
+          <div class="col col-lg-6 col-12 new-product">
+            <div class="new-product-content">
+              <div class="new-product-content-text">
+                <h2 class="new-product-content__name">AXEL - STOOL</h2>
+                <h5>New product</h5>
+                <p class="new-product-content__info">
+                  Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer
+                  took
+                  a
+                  galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                </p>
+              </div>
+              <div class="btn btn-buy-now">BUY NOW</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUGGEST COLLECTION -->
+  <section id="suggest-collection">
+    <div class="container">
+      <div class="suggest-collection">
+        <h2 class="suggest-collection__header header-text">Suggest Collection</h2>
+        <ul class="suggest-collection__list">
+          <li class="suggest-collection__list-item text-center">
+            <a href="" class="suggest-collection__list-item-link">
+              <img src="./assets/images/sugestion/chair.jpg" alt="Office chair" class="img-fluid">
+              <h4 class="suggest-collection__list-item-link__name">Office chair</h4>
+            </a>
+          </li>
+          <li class="suggest-collection__list-item text-center">
+            <a href="" class="suggest-collection__list-item-link">
+              <img src="./assets/images/sugestion/sofas.png" alt="Sofas" class="img-fluid">
+              <h4 class="suggest-collection__list-item-link__name">Sofas</h4>
+            </a>
+          </li>
+          <li class="suggest-collection__list-item text-center">
+            <a href="" class="suggest-collection__list-item-link">
+              <img src="./assets/images/sugestion/good-chair.jpg" alt="Good chair" class="img-fluid">
+              <h4 class="suggest-collection__list-item-link__name">Good chair</h4>
+            </a>
+          </li>
+          <li class="suggest-collection__list-item text-center">
+            <a href="" class="suggest-collection__list-item-link">
+              <img src="./assets/images/sugestion/coffee-chair.jpg" alt="Coffee chair" class="img-fluid">
+              <h4 class="suggest-collection__list-item-link__name">Coffee chair</h4>
+            </a>
+          </li>
+          <li class="suggest-collection__list-item text-center">
+            <a href="" class="suggest-collection__list-item-link">
+              <img src="./assets/images/sugestion/outdoor-table.jpg" alt="Office chair" class="img-fluid">
+              <h4 class="suggest-collection__list-item-link__name">Outdoor table</h4>
+            </a>
+          </li>
+          <li class="suggest-collection__list-item text-center">
+            <a href="" class="suggest-collection__list-item-link">
+              <img src="./assets/images/sugestion/iprum-chair.jpg" alt="Ipsum chair" class="img-fluid">
+              <h4 class="suggest-collection__list-item-link__name">Ipsum chair</h4>
+            </a>
+          </li>
+          <li class="suggest-collection__list-item text-center">
+            <a href="" class="suggest-collection__list-item-link">
+              <img src="./assets/images/sugestion/wood-chair.jpg" alt="Wood chair" class="img-fluid">
+              <h4 class="suggest-collection__list-item-link__name">Wood chair</h4>
+            </a>
+          </li>
+          <li class="suggest-collection__list-item text-center">
+            <a href="" class="suggest-collection__list-item-link">
+              <img src="./assets/images/sugestion/coffee-table.jpg" alt="Coffee table" class="img-fluid">
+              <h4 class="suggest-collection__list-item-link__name">Coffee table</h4>
+            </a>
+          </li>
+          <li class="suggest-collection__list-item text-center">
+            <a href="" class="suggest-collection__list-item-link">
+              <img src="./assets/images/sugestion/living-room.jpg" alt="Living room" class="img-fluid">
+              <h4 class="suggest-collection__list-item-link__name">Living room</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="product-list-nav">
+          <span class="product-list-nav-btn">
+            <i class="fas fa-bars"></i>
+          </span>
+          <ul class="product-list-nav-list shadow">
+            <li class="product-list-nav-list__item active">
+              <a href="#" class="product-list-nav-list__item-link">
+                Office chair
+              </a>
+            </li>
+            <li class="product-list-nav-list__item">
+              <a href="#" class="product-list-nav-list__item-link">
+                Sofas
+              </a>
+            </li>
+            <li class="product-list-nav-list__item">
+              <a href="#" class="product-list-nav-list__item-link">
+                Good chair
+              </a>
+            </li>
+            <li class="product-list-nav-list__item">
+              <a href="#" class="product-list-nav-list__item-link">
+                Coffee chair
+              </a>
+            </li>
+            <li class="product-list-nav-list__item">
+              <a href="#" class="product-list-nav-list__item-link">
+                Outdoor table
+              </a>
+            </li>
+            <li class="product-list-nav-list__item">
+              <a href="#" class="product-list-nav-list__item-link">
+                Ipsum chair
+              </a>
+            </li>
+            <li class="product-list-nav-list__item">
+              <a href="#" class="product-list-nav-list__item-link">
+                Wood chair
+              </a>
+            </li>
+            <li class="product-list-nav-list__item">
+              <a href="#" class="product-list-nav-list__item-link">
+                Coffee table
+              </a>
+            </li>
+            <li class="product-list-nav-list__item">
+              <a href="#" class="product-list-nav-list__item-link">
+                Living rooms
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="product-content">
+        <div class="row owl-carousel owl-theme">
+          <div class="item product-content__detail product-1">
+            <div class="product-content__img">
+              <div class="sale-badge">SALE!</div>
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/17-215x260.jpg" alt="Product 1" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                <span>$ 9.00</span> $ 7.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item product-content__detail product-2">
+            <div class="product-content__img">
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/26-215x260.jpg" alt="Product 2" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                $ 10.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item product-content__detail product-3">
+            <div class="product-content__img">
+              <div class="sale-badge">SALE!</div>
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/10-215x260.jpg" alt="Product 3" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                <span>$ 3.00</span> $ 2.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item product-content__detail product-4">
+            <div class="product-content__img">
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/24-215x260.jpg" alt="Product 4" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                $ 14.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item product-content__detail product-5">
+            <div class="product-content__img">
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/3-215x260.jpg" alt="Product 5" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                $ 14.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item product-content__detail product-6">
+            <div class="product-content__img">
+              <div class="sale-badge">SALE!</div>
+              <a href="" class="product-content__img-link">
+                <img src="./assets/images/new-products/17-215x260.jpg" alt="Product 6" class="img-fluid">
+              </a>
+              <div class="item-box-hover">
+                <div class="add-to-cart">
+                  <a href="" class="text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </a>
+                </div>
+                <table class="option-box">
+                  <tr>
+                    <td class="like-btn">
+                      <a href="">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                    </td>
+                    <td class="compare-btn">
+                      <a href="">
+                        <i class="fas fa-random"></i>
+                      </a>
+                    </td>
+                    <td class="quick-view-btn">
+                      <a href="">
+                        <i class="far fa-eye"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="product-content__info">
+              <h5 class="product-content__info-name">Modular Modern</h5>
+              <p class="product-content__info-price">
+                <span>$ 9.00</span> $ 7.00
+              </p>
+              <span class="product-content__info-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <button class="btn control-btn control-btn--left control-btn--left-sc">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="btn control-btn control-btn--right control-btn--right-sc">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SALE -->
+  <section id="sale">
+    <div class="container">
+      <div class="sale">
+        <div class="row">
+          <div class="col col-lg-6 col-md-6 col-12 sale-img-wrapper">
+            <a href="">
+              <img class="img-fluid" src="assets/images/sale/baner-shipping.jpg" alt="Image 1">
+            </a>
+          </div>
+          <div class="col col-lg-6 col-md-6 col-12">
+            <div class="row">
+              <div class="col col-lg-6 col-md-6 col-12 text-center sale-img-wrapper">
+                <a href="">
+                  <img class="img-fluid" src="assets/images/sale/banner3.jpg" alt="Image 2">
+                </a>
+              </div>
+              <div class="col col-lg-6 col-md-6 col-12 text-center sale-img-wrapper">
+                <a href="">
+                  <img class="img-fluid" src="assets/images/sale/banner4.jpg" alt="Image 3">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOST VIEWED -->
+  <section id="most-viewed">
+    <div class="container">
+      <div class="most-viewed">
+        <div class="most-viewed__header header-section">
+          <h2 class="header-text">Most viewed</h2>
+        </div>
+        <div class="most-viewed-list">
+          <div class="owl-carousel owl-theme">
+            <div class="item most-viewed__list-item">
+              <div class="most-viewed__list-product">
+                <div class="product-img">
+                  <img src="assets/images/most_viewed/10-215x260.jpg" alt="Image 1">
+                </div>
+                <div class="product-info">
+                  <a href="" class="product-info__link">
+                    <h5 class="product-info__name">Modular Modern</h5>
+                  </a>
+                  <div class="product-info__price">
+                    <span>$ 3.00</span> $ 2.00
+                  </div>
+                  <div class="product-info__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product-info__btn">
+                    <a href="" class="text-center">
+                      <i class="fas fa-shopping-cart"></i>
+                      Add to cart
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="most-viewed__list-product">
+                <div class="product-img">
+                  <img src="assets/images/most_viewed/11-215x260.jpg" alt="Image 1">
+                </div>
+                <div class="product-info">
+                  <a href="" class="product-info__link">
+                    <h5 class="product-info__name">Modular Modern</h5>
+                  </a>
+                  <div class="product-info__price">
+                    <span>$ 3.00</span> $ 2.00
+                  </div>
+                  <div class="product-info__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product-info__btn">
+                    <a href="" class="text-center">
+                      <i class="fas fa-shopping-cart"></i>
+                      Add to cart
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item most-viewed__list-item">
+              <div class="most-viewed__list-product">
+                <div class="product-img">
+                  <img src="assets/images/most_viewed/15-215x260.jpg" alt="Image 1">
+                </div>
+                <div class="product-info">
+                  <a href="" class="product-info__link">
+                    <h5 class="product-info__name">Modular Modern</h5>
+                  </a>
+                  <div class="product-info__price">
+                    <span>$ 3.00</span> $ 2.00
+                  </div>
+                  <div class="product-info__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product-info__btn">
+                    <a href="" class="text-center">
+                      <i class="fas fa-shopping-cart"></i>
+                      Add to cart
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="most-viewed__list-product">
+                <div class="product-img">
+                  <img src="assets/images/most_viewed/19-215x260.jpg" alt="Image 1">
+                </div>
+                <div class="product-info">
+                  <a href="" class="product-info__link">
+                    <h5 class="product-info__name">Modular Modern</h5>
+                  </a>
+                  <div class="product-info__price">
+                    <span>$ 3.00</span> $ 2.00
+                  </div>
+                  <div class="product-info__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product-info__btn">
+                    <a href="" class="text-center">
+                      <i class="fas fa-shopping-cart"></i>
+                      Add to cart
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item most-viewed__list-item">
+              <div class="most-viewed__list-product">
+                <div class="product-img">
+                  <img src="assets/images/most_viewed/24-215x260.jpg" alt="Image 1">
+                </div>
+                <div class="product-info">
+                  <a href="" class="product-info__link">
+                    <h5 class="product-info__name">Modular Modern</h5>
+                  </a>
+                  <div class="product-info__price">
+                    <span>$ 3.00</span> $ 2.00
+                  </div>
+                  <div class="product-info__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product-info__btn">
+                    <a href="" class="text-center">
+                      <i class="fas fa-shopping-cart"></i>
+                      Add to cart
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="most-viewed__list-product">
+                <div class="product-img">
+                  <img src="assets/images/most_viewed/26-215x260.jpg" alt="Image 1">
+                </div>
+                <div class="product-info">
+                  <a href="" class="product-info__link">
+                    <h5 class="product-info__name">Modular Modern</h5>
+                  </a>
+                  <div class="product-info__price">
+                    <span>$ 3.00</span> $ 2.00
+                  </div>
+                  <div class="product-info__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product-info__btn">
+                    <a href="" class="text-center">
+                      <i class="fas fa-shopping-cart"></i>
+                      Add to cart
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item most-viewed__list-item">
+              <div class="most-viewed__list-product">
+                <div class="product-img">
+                  <img src="assets/images/most_viewed/3-215x260 (1).jpg" alt="Image 1">
+                </div>
+                <div class="product-info">
+                  <a href="" class="product-info__link">
+                    <h5 class="product-info__name">Modular Modern</h5>
+                  </a>
+                  <div class="product-info__price">
+                    <span>$ 3.00</span> $ 2.00
+                  </div>
+                  <div class="product-info__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product-info__btn">
+                    <a href="" class="text-center">
+                      <i class="fas fa-shopping-cart"></i>
+                      Add to cart
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="most-viewed__list-product">
+                <div class="product-img">
+                  <img src="assets/images/most_viewed/3-215x260.jpg" alt="Image 1">
+                </div>
+                <div class="product-info">
+                  <a href="" class="product-info__link">
+                    <h5 class="product-info__name">Modular Modern</h5>
+                  </a>
+                  <div class="product-info__price">
+                    <span>$ 3.00</span> $ 2.00
+                  </div>
+                  <div class="product-info__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="product-info__btn">
+                    <a href="" class="text-center">
+                      <i class="fas fa-shopping-cart"></i>
+                      Add to cart
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn control-btn control-btn--left control-btn--left-mv">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="btn control-btn control-btn--right control-btn--right-mv">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST POST -->
+  <section id="latest-post">
+    <div class="container">
+      <div class="latest-post">
+        <div class="header-section latest-post__header-wrapper">
+          <h5 class="header-text latest-post__header">Latest post</h5>
+        </div>
+        <div class="latest-post__content">
+          <div class="owl-carousel owl-theme latest-post__carousel">
+            <div class="item latest-post__item">
+              <div class="latest-post__item-img">
+                <img src="./assets/images/latest_posts/110-370x190.jpg" alt="Latest Image 1" class="img-fluid">
+              </div>
+              <div class="latest-post__item-info">
+                <div class="latest-post__item-info-date">
+                  <span>3</span>NOV
+                </div>
+                <div class="latest-post__item-info-text">
+                  <h5 class="item-author">Admin</h5>
+                  <h4 class="item-title">Richard McClintock at Hampden-Sydney</h4>
+                  <p class="item-text">Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                    obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                    word in classical literature, discovered the undoubtable source.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item latest-post__item">
+              <div class="latest-post__item-img">
+                <img src="./assets/images/latest_posts/richard-3-370x190.jpg" alt="Latest Image 2" class="img-fluid">
+              </div>
+              <div class="latest-post__item-info">
+                <div class="latest-post__item-info-date">
+                  <span>3</span>NOV
+                </div>
+                <div class="latest-post__item-info-text">
+                  <h5 class="item-author">Admin</h5>
+                  <h4 class="item-title">Morbi semper eros sit amet mi molestie</h4>
+                  <p class="item-text">Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
+                    through the cites of the.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item latest-post__item">
+              <div class="latest-post__item-img">
+                <img src="./assets/images/latest_posts/2-blog-370x190.jpg" alt="Latest Image 3" class="img-fluid">
+              </div>
+              <div class="latest-post__item-info">
+                <div class="latest-post__item-info-date">
+                  <span>3</span>NOV
+                </div>
+                <div class="latest-post__item-info-text">
+                  <h5 class="item-author">Admin</h5>
+                  <h4 class="item-title">Latin professor at Hampden-Sydney</h4>
+                  <p class="item-text">Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
+                    through the cites of the word in classical literature.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn control-btn control-btn--left control-btn--left-lp">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="btn control-btn control-btn--right control-btn--right-lp">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brands -->
+  <section id="brands">
+    <div class="container">
+      <div class="brands">
+        <ul class="brands-list">
+          <div class="owl-carousel owl-theme brands-carousel">
+            <li class="item brand-img">
+              <img src="assets/images/brands/avan.png" alt="Avan">
+            </li>
+            <li class="item brand-img">
+              <img src="assets/images/brands/avio.png" alt="Avio">
+            </li>
+            <li class="item brand-img">
+              <img src="assets/images/brands/lamino.png" alt="Lamino">
+            </li>
+            <li class="item brand-img">
+              <img src="assets/images/brands/mbm.png" alt="MBM">
+            </li>
+            <li class="item brand-img">
+              <img src="assets/images/brands/nazic.png" alt="Nazic">
+            </li>
+            <li class="item brand-img">
+              <img src="assets/images/brands/nova.png" alt="Nova">
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="sns-footer">
+    <div class="container">
+      <div class="footer-list">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5">
+          <li class="footer-list-item">
+            <h3 class="footer-list-item__name">Contact us</h3>
+            <ul class="footer-list-item__sub-list">
+              <li class="footer-list-item__sub-list__item">
+                <i class="fas fa-home"></i>
+                <span>8888 South Avenue Street, New York</span>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <i class="fas fa-phone-alt"></i>
+                <span>(12) 3 456 7896</span>
+                <span>(12) 3 456 7895</span>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <i class="fas fa-envelope"></i>
+                <span>contact@simen.com</span>
+                <span>info@simen.com</span>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer-list-item">
+            <h3 class="footer-list-item__name">Service</h3>
+            <ul class="footer-list-item__sub-list">
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Prices & Currencies</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Secure Payment</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Delivery times & Costs</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Returns & Exchanges</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">FAQ's</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer-list-item">
+            <h3 class="footer-list-item__name">Account</h3>
+            <ul class="footer-list-item__sub-list">
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">My account</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Wishlist</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Order history</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Specials</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Gift vouchers</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer-list-item">
+            <h3 class="footer-list-item__name">Information</h3>
+            <ul class="footer-list-item__sub-list">
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">My account</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Wishlist</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Order history</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Specials</a>
+              </li>
+              <li class="footer-list-item__sub-list__item">
+                <a href="#">Gift vouchers</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer-list-item">
+            <h3 class="footer-list-item__name">NEWSLETTER</h3>
+            <form action="">
+              <label for="">Register your email for news</label>
+              <input type="email" placeholder="Enter your email here" required>
+              <button class="btn">SUBSCRIBE</button>
+            </form>
+          </li>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section id="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-6 col-md-12 col-12 copyright__text">
+          <p>© 2015 Ecommerce software by Wordpress™ Designed by SNSTheme.Com</p>
+        </div>
+        <div class="col col-lg-6 col-md-12 col-12 copyright__img">
+          <img src="assets/images/payment.png" alt="Payment">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/vendor/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="customOwlCarousel.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
